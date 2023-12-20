@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "regular";
+    src: url(../Fonts/regular.ttf);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(../Fonts/bold.ttf);
+}
+
+@font-face {
+    font-family: "name";
+    src: url(../Fonts/Silkscreen-Bold.ttf);
+}
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    
+    a{
+        text-decoration: none;
+    }
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    opacity: 50%;
+    padding: 30px; 
+    transition: 0.7s;
+    justify-content:space-around;
+    a{
+        color: white;
+        font-family: "bold";
+        font-size: 20px;
+        letter-spacing: 0.2px;
+        
+    }
+
+    .name{
+        font-family: "name";
+        font-size: 25px;
+        letter-spacing: 0.2px;
+
+    }
+}
+
+body{
+    background-image: url(/Mtavari/fotoebi/gta6.png);
+    background-attachment: fixed;
+
+}
+
+
+header:hover{
+    opacity: 100%;
+    transition: 0.7s;
+}

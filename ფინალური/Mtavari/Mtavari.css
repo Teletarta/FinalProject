@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "regular";
+  src: url(../Fonts/regular.ttf);
+}
+@font-face {
+  font-family: "bold";
+  src: url(../Fonts/bold.ttf);
+}
+@font-face {
+  font-family: "name";
+  src: url(../Fonts/Silkscreen-Bold.ttf);
+}
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+body a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  background-color: black;
+  opacity: 50%;
+  padding: 30px;
+  transition: 0.7s;
+  justify-content: space-around;
+  width: 100%;
+  height: 15%;
+}
+header a {
+  color: white;
+  font-family: "bold";
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  transition: 0.2s;
+}
+header .name {
+  font-family: "name";
+  font-size: 25px;
+  letter-spacing: 0.2px;
+}
+
+body {
+  background-image: url(/Mtavari/fotoebi/gta6.png);
+  background-attachment: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+body .Main {
+  margin-top: 350px;
+  margin-bottom: 50px;
+  background-color: aliceblue;
+  width: 60%;
+}
+body .Main section {
+  padding: 20px;
+  display: flex;
+}
+body .Main section h4 {
+  font-family: bold;
+  font-size: 30px;
+  letter-spacing: 0.4px;
+  line-height: 40px;
+}
+body .Main section h5 {
+  color: red;
+  padding: 5px 5px 5px 0px;
+  font-size: 15px;
+}
+body .Main section p {
+  opacity: 80%;
+  letter-spacing: 0.2px;
+  line-height: 30px;
+  font-size: 14px;
+}
+body .Main section > div {
+  margin-left: 20px;
+}
+body .Main section > a > img {
+  width: 300px;
+  transition: 0.4s;
+}
+body .Main .pages {
+  display: flex;
+  justify-content: center;
+}
+body .Main .pages a {
+  background-color: aliceblue;
+  margin-left: 5.5px;
+  border: 0.5px solid gray;
+  padding: 4px 8px;
+  margin-bottom: 5px;
+  transition: 0.3s;
+  border-radius: 50%;
+}
+
+header:hover {
+  opacity: 100%;
+  transition: 0.7s;
+}
+
+header > a:hover {
+  scale: 1.1;
+  padding: 8px;
+  animation-duration: 500ms;
+  animation: navigation infinite;
+  transition: 0.2s;
+}
+
+body > .Main > .pages > a:hover {
+  background-color: black;
+  color: white;
+}
+
+body > .Main > section > a > img:hover {
+  opacity: 80%;
+  transition: 0.4s;
+}

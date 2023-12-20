@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "regular";
+    src: url(../Fonts/regular.ttf);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(../Fonts/bold.ttf);
+}
+
+@font-face {
+    font-family: "name";
+    src: url(../Fonts/Silkscreen-Bold.ttf);
+}
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    
+    a{
+        text-decoration: none;
+    }
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    opacity: 50%;
+    padding: 30px; 
+    transition: 0.7s;
+    justify-content:space-around;
+    width: 100%;
+    height: 15%;
+    a{
+        color: white;
+        font-family: "bold";
+        font-size: 20px;
+        letter-spacing: 0.2px;
+        transition: 0.2s;
+    }
+
+    .name{
+        font-family: "name";
+        font-size: 25px;
+        letter-spacing: 0.2px;
+
+    }
+}
+
+body{
+    background-image: url(/Mtavari/fotoebi/gta6.png);
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .Main{
+        margin-top: 350px;
+        margin-bottom: 50px;
+        background-color: aliceblue;
+        width: 60%;
+
+        section{
+            padding: 20px;
+            display: flex;
+            h4{
+                font-family: bold;
+                font-size: 30px;
+                letter-spacing: 0.4px;
+                line-height: 40px;
+            }
+            h5{
+                color: red;
+                padding:5px 5px 5px 0px;
+                font-size: 15px;
+            }
+            p{
+                opacity: 80%;
+                letter-spacing: 0.2px;
+                line-height: 30px;
+                font-size: 14px;
+            }
+
+        }
+
+        section > div{
+            margin-left: 20px;
+        }
+
+        section > a > img{
+            width: 300px;
+            transition: 0.4s;
+        }
+
+        .pages {
+            display: flex;
+            justify-content: center;
+            a{
+                background-color: aliceblue;
+                margin-left:5.5px;
+                border: 0.5px solid gray;
+                padding: 4px 8px;
+                margin-bottom: 5px;
+                transition: 0.3s;
+                border-radius: 50%;
+            }
+        }
+
+        
+
+    }
+}
+
+
+
+header:hover{
+    opacity: 100%;
+    transition: 0.7s;
+}
+
+header > a:hover{
+    scale: 1.10;
+    padding: 8px;
+    animation-duration: 500ms;
+    animation: navigation infinite;
+    transition: 0.2s;
+}
+
+body > .Main > .pages > a:hover{
+    background-color: black;
+    color: white;
+
+}
+
+body > .Main > section > a > img:hover{
+    opacity: 80%;
+    transition: 0.4s;
+}
+
+
